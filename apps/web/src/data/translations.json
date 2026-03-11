@@ -1,0 +1,396 @@
+{
+  "en-US": {
+    "header": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "experience": "Experience",
+      "contact": "Contact",
+      "menu": "Menu"
+    },
+    "footer": {
+      "subtitle": "Software Engineer & Student passionate about building innovative solutions.",
+      "quickLinks": "Quick Links",
+      "connect": "Connect",
+      "rights": "All rights reserved."
+    },
+    "home": {
+      "metaTitle": "Vinicius Zegarra Palhares - Software Engineer & Student",
+      "metaDesc": "Portfolio of Vinicius Zegarra Palhares, a passionate Software Engineer and Student specializing in modern web development.",
+      "badge": "Welcome to my portfolio",
+      "title": "Vinicius Zegarra Palhares",
+      "subtitle": "Software Engineer & Student",
+      "description": "Passionate about creating innovative solutions through clean code and modern technologies. Specializing in full-stack development with a focus on user experience and performance.",
+      "viewProjects": "View My Projects",
+      "getInTouch": "Get In Touch",
+      "scroll": "Scroll to explore"
+    },
+    "about": {
+      "metaTitle": "About - Vinicius Zegarra Palhares",
+      "metaDesc": "Learn more about Vinicius Zegarra Palhares, a Software Engineering student and developer passionate about creating innovative solutions.",
+      "title": "About Me",
+      "subtitle": "Get to know more about my journey, skills, and passion for technology",
+      "hello": "Hello, I'm Vinicius",
+      "p1": "I'm a passionate Software Engineering student with a deep love for creating innovative digital solutions. My journey in technology began with curiosity and has evolved into a commitment to building impactful applications.",
+      "p2": "I specialize in full-stack development, with expertise in modern frameworks and technologies. I believe in writing clean, maintainable code and creating user experiences that make a difference.",
+      "p3": "When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.",
+      "skillsTitle": "Technical Skills",
+      "educationTitle": "Education",
+      "edu1": {
+        "degree": "Bachelor of Software Engineering",
+        "institution": "Pontificia Universidade Catolica",
+        "period": "2023 - Present",
+        "description": "Focusing on software architecture, algorithms, and modern development practices."
+      }
+    },
+    "projects": {
+      "metaTitle": "Projects - Vinicius Zegarra Palhares",
+      "metaDesc": "Explore the portfolio of projects by Vinicius Zegarra Palhares, showcasing innovative web applications and software solutions.",
+      "title": "My Projects",
+      "subtitle": "A collection of projects showcasing my skills and passion for development",
+      "viewProject": "View Project",
+      "sourceCode": "Source Code",
+      "items": {
+        "p1": {
+          "title": "Personal Portfolio Website",
+          "description": "A modern, responsive portfolio website built with React and TailwindCSS. Features dark theme, smooth animations, and optimized performance.",
+          "date": "2026",
+          "technologies": [
+            "React",
+            "TailwindCSS",
+            "Framer Motion",
+            "React Router"
+          ]
+        },
+        "p2": {
+          "title": "E-commerce Platform",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "date": "2025",
+          "technologies": [
+            "React",
+            "Node.js",
+            "MongoDB",
+            "Stripe API",
+            "Express"
+          ]
+        },
+        "p3": {
+          "title": "Task Management App",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "date": "2025",
+          "technologies": [
+            "React",
+            "Firebase",
+            "Material-UI",
+            "WebSockets"
+          ]
+        },
+        "p4": {
+          "title": "Weather Dashboard",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "date": "2024",
+          "technologies": [
+            "React",
+            "OpenWeather API",
+            "Chart.js",
+            "TailwindCSS"
+          ]
+        },
+        "p5": {
+          "title": "Chat Application",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "date": "2024",
+          "technologies": [
+            "React",
+            "Socket.io",
+            "Node.js",
+            "MongoDB",
+            "JWT"
+          ]
+        }
+      }
+    },
+    "experience": {
+      "metaTitle": "Experience - Vinicius Zegarra Palhares",
+      "metaDesc": "Professional experience and career journey of Vinicius Zegarra Palhares, including internships, projects, and contributions.",
+      "title": "Experience",
+      "subtitle": "My professional journey and contributions to the tech community",
+      "highlights": "Key Highlights:",
+      "items": {
+        "e1": {
+          "role": "Intern",
+          "company": "Vale",
+          "type": "Internship",
+          "duration": "Feb 2026 - Present · 2 months",
+          "location": "Belo Horizonte, Minas Gerais, Brazil · Hybrid",
+          "description": "Working as an intern at Vale, one of the world's largest mining companies, contributing to technology and innovation projects in a hybrid environment.",
+          "highlights": [
+            "Working in a hybrid environment in Belo Horizonte",
+            "Contributing to technology projects at Latin America's largest mining company",
+            "Developing technical and professional skills"
+          ],
+          "isCurrent": true
+        },
+        "e2": {
+          "role": "IT Support Technician",
+          "company": "Prefeitura de Belo Horizonte",
+          "type": "Part-time",
+          "duration": "May 2025 - Dec 2025 · 8 months",
+          "location": "Belo Horizonte, Minas Gerais, Brazil · On-site",
+          "description": "Worked as an IT Support intern at a municipal school, applying technical knowledge in practice while developing interpersonal and communication skills.",
+          "highlights": [
+            "Preventive and corrective maintenance of computers",
+            "Support to teachers on the use of technology tools in the classroom",
+            "Assistance to students during computer science classes",
+            "Support in developing technology-related activities"
+          ],
+          "skills": "Information Technology Infrastructure"
+        },
+        "e3": {
+          "role": "Sales Analyst",
+          "company": "Life Eyewear",
+          "type": "Full-time",
+          "duration": "Jan 2023 - Mar 2025 · 2 years 3 months",
+          "location": "Belo Horizonte, Minas Gerais, Brazil · On-site",
+          "description": "Worked focused on marketing support and administrative management, playing an active role in planning and executing ads to promote products across different digital platforms.",
+          "highlights": [
+            "Campaign performance analysis across digital platforms",
+            "Identification of improvement points in marketing strategies",
+            "Implementation of solutions to optimize processes and results",
+            "Planning and execution of ads on multiple platforms"
+          ],
+          "skills": "Business Research · Google Analytics"
+        }
+      },
+      "current": "Current"
+    },
+    "contact": {
+      "metaTitle": "Contact - Vinicius Zegarra Palhares",
+      "metaDesc": "Get in touch with Vinicius Zegarra Palhares. Send a message or connect through social media.",
+      "title": "Get In Touch",
+      "subtitle": "Have a question or want to work together? I'd love to hear from you!",
+      "formTitle": "Send a Message",
+      "nameLabel": "Name *",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email *",
+      "emailPlaceholder": "your.email@example.com",
+      "messageLabel": "Message *",
+      "messagePlaceholder": "Your message...",
+      "sending": "Sending...",
+      "send": "Send Message",
+      "connectTitle": "Connect With Me",
+      "collabTitle": "Let's Collaborate",
+      "collabP1": "to say hi, feel free to reach out!",
+      "collabP2": "I typically respond within 24-48 hours. Looking forward to connecting with you!",
+      "errors": {
+        "nameReq": "Name is required",
+        "emailReq": "Email is required",
+        "emailInv": "Please enter a valid email address",
+        "msgReq": "Message is required",
+        "valTitle": "Validation Error",
+        "valDesc": "Please fill in all required fields correctly."
+      },
+      "success": {
+        "title": "Message Sent Successfully!",
+        "desc": "Thank you for reaching out. I'll get back to you soon."
+      }
+    }
+  },
+  "pt-BR": {
+    "header": {
+      "home": "Início",
+      "about": "Sobre",
+      "projects": "Projetos",
+      "experience": "Experiência",
+      "contact": "Contato",
+      "menu": "Menu"
+    },
+    "footer": {
+      "subtitle": "Estudante e Engenheiro de Software apaixonado por criar soluções inovadoras.",
+      "quickLinks": "Links Rápidos",
+      "connect": "Conectar",
+      "rights": "Todos os direitos reservados."
+    },
+    "home": {
+      "metaTitle": "Vinicius Zegarra Palhares - Engenheiro de Software & Estudante",
+      "metaDesc": "Portfólio de Vinicius Zegarra Palhares, um apaixonado Engenheiro de Software e Estudante especializado em desenvolvimento web moderno.",
+      "badge": "Bem-vindo ao meu portfólio",
+      "title": "Vinicius Zegarra Palhares",
+      "subtitle": "Engenheiro de Software & Estudante",
+      "description": "Apaixonado por criar soluções inovadoras através de código limpo e tecnologias modernas. Especializado em desenvolvimento full-stack com foco na experiência do usuário e performance.",
+      "viewProjects": "Ver Meus Projetos",
+      "getInTouch": "Entrar em Contato",
+      "scroll": "Role para explorar"
+    },
+    "about": {
+      "metaTitle": "Sobre - Vinicius Zegarra Palhares",
+      "metaDesc": "Saiba mais sobre Vinicius Zegarra Palhares, estudante de Engenharia de Software e desenvolvedor apaixonado por criar soluções inovadoras.",
+      "title": "Sobre Mim",
+      "subtitle": "Conheça mais sobre minha jornada, habilidades e paixão por tecnologia",
+      "hello": "Olá, eu sou o Vinicius",
+      "p1": "Sou um estudante apaixonado por Engenharia de Software com um profundo amor por criar soluções digitais inovadoras. Minha jornada na tecnologia começou com curiosidade e evoluiu para um compromisso em construir aplicações impactantes.",
+      "p2": "Especializo-me em desenvolvimento full-stack, com experiência em frameworks e tecnologias modernas. Acredito em escrever código limpo e sustentável e em criar experiências de usuário que fazem a diferença.",
+      "p3": "Quando não estou programando, você me encontrará explorando novas tecnologias, contribuindo para projetos de código aberto ou compartilhando conhecimento com a comunidade de desenvolvedores.",
+      "skillsTitle": "Habilidades Técnicas",
+      "educationTitle": "Educação",
+      "edu1": {
+        "degree": "Bacharelado em Engenharia de Software",
+        "institution": "Pontificia Universidade Catolica",
+        "period": "2023 - Presente",
+        "description": "Foco em arquitetura de software, algoritmos e práticas modernas de desenvolvimento."
+      }
+    },
+    "projects": {
+      "metaTitle": "Projetos - Vinicius Zegarra Palhares",
+      "metaDesc": "Explore o portfólio de projetos de Vinicius Zegarra Palhares, apresentando aplicações web inovadoras e soluções de software.",
+      "title": "Meus Projetos",
+      "subtitle": "Uma coleção de projetos que demonstram minhas habilidades e paixão por desenvolvimento",
+      "viewProject": "Ver Projeto",
+      "sourceCode": "Código Fonte",
+      "items": {
+        "p1": {
+          "title": "Site de Portfólio Pessoal",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+          "date": "2026",
+          "technologies": [
+            "React",
+            "TailwindCSS",
+            "Framer Motion",
+            "React Router"
+          ]
+        },
+        "p2": {
+          "title": "Plataforma de E-commerce",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+          "date": "2025",
+          "technologies": [
+            "React",
+            "Node.js",
+            "MongoDB",
+            "Stripe API",
+            "Express"
+          ]
+        },
+        "p3": {
+          "title": "App de Gerenciamento de Tarefas",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+          "date": "2025",
+          "technologies": [
+            "React",
+            "Firebase",
+            "Material-UI",
+            "WebSockets"
+          ]
+        },
+        "p4": {
+          "title": "Painel de Clima",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+          "date": "2024",
+          "technologies": [
+            "React",
+            "OpenWeather API",
+            "Chart.js",
+            "TailwindCSS"
+          ]
+        },
+        "p5": {
+          "title": "Aplicativo de Chat",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+          "date": "2024",
+          "technologies": [
+            "React",
+            "Socket.io",
+            "Node.js",
+            "MongoDB",
+            "JWT"
+          ]
+        }
+      }
+    },
+    "experience": {
+      "metaTitle": "Experiência - Vinicius Zegarra Palhares",
+      "metaDesc": "Experiência profissional e jornada de carreira de Vinicius Zegarra Palhares, incluindo estágios, projetos e contribuições.",
+      "title": "Experiência",
+      "subtitle": "Minha jornada profissional e contribuições para a comunidade de tecnologia",
+      "highlights": "Principais Destaques:",
+      "items": {
+        "e1": {
+          "role": "Estagiário",
+          "company": "Vale",
+          "type": "Estágio",
+          "duration": "fev de 2026 - o momento · 2 meses",
+          "location": "Belo Horizonte, Minas Gerais, Brasil · Híbrido",
+          "description": "Atuando como estagiário na Vale, uma das maiores mineradoras do mundo, contribuindo com projetos de tecnologia e inovação em ambiente híbrido.",
+          "highlights": [
+            "Atuação em ambiente híbrido em Belo Horizonte",
+            "Contribuições em projetos de tecnologia na maior mineradora da América Latina",
+            "Desenvolvimento de habilidades técnicas e profissionais"
+          ],
+          "isCurrent": true
+        },
+        "e2": {
+          "role": "Técnico de Suporte em TI",
+          "company": "Prefeitura de Belo Horizonte",
+          "type": "Meio período",
+          "duration": "mai de 2025 - dez de 2025 · 8 meses",
+          "location": "Belo Horizonte, Minas Gerais, Brasil · No local",
+          "description": "Atuei como estagiário de Suporte de TI em uma escola municipal, onde tive a oportunidade de aplicar na prática meus conhecimentos técnicos enquanto desenvolvia habilidades interpessoais e de comunicação.",
+          "highlights": [
+            "Manutenção preventiva e corretiva de computadores",
+            "Suporte a professores no uso de ferramentas tecnológicas em sala de aula",
+            "Acompanhamento de alunos nas aulas de informática",
+            "Auxílio no desenvolvimento de atividades voltadas à tecnologia"
+          ],
+          "skills": "Infraestrutura de tecnologia da informação"
+        },
+        "e3": {
+          "role": "Analista de Vendas",
+          "company": "Life Eyewear",
+          "type": "Tempo integral",
+          "duration": "jan de 2023 - mar de 2025 · 2 anos 3 meses",
+          "location": "Belo Horizonte, Minas Gerais, Brasil · No local",
+          "description": "Atuei com foco no suporte à área de marketing e gestão administrativa, desempenhando um papel ativo no planejamento e execução de anúncios para promover produtos em diferentes plataformas digitais.",
+          "highlights": [
+            "Análise de desempenho das campanhas digitais",
+            "Identificação de pontos de melhoria nas estratégias de marketing",
+            "Implementação de soluções para otimizar processos e resultados",
+            "Planejamento e execução de anúncios em múltiplas plataformas"
+          ],
+          "skills": "Pesquisa de negócios · Google Analytics"
+        }
+      },
+      "current": "Atual"
+    },
+    "contact": {
+      "metaTitle": "Contato - Vinicius Zegarra Palhares",
+      "metaDesc": "Entre em contato com Vinicius Zegarra Palhares. Envie uma mensagem ou conecte-se através das redes sociais.",
+      "title": "Entrar em Contato",
+      "subtitle": "Tem alguma dúvida ou quer trabalhar junto? Eu adoraria ouvir de você!",
+      "formTitle": "Enviar uma Mensagem",
+      "nameLabel": "Nome *",
+      "namePlaceholder": "Seu nome",
+      "emailLabel": "E-mail *",
+      "emailPlaceholder": "seu.email@exemplo.com",
+      "messageLabel": "Mensagem *",
+      "messagePlaceholder": "Sua mensagem...",
+      "sending": "Enviando...",
+      "send": "Enviar Mensagem",
+      "connectTitle": "Conecte-se Comigo",
+      "collabTitle": "Vamos Colaborar",
+      "collabP1": " Se você tem uma pergunta ou apenas quer dizer oi, sinta-se à vontade para entrar em contato!",
+      "collabP2": "Normalmente respondo dentro de 24-48 horas. Ansioso para me conectar com você!",
+      "errors": {
+        "nameReq": "Nome é obrigatório",
+        "emailReq": "E-mail é obrigatório",
+        "emailInv": "Por favor, insira um endereço de e-mail válido",
+        "msgReq": "Mensagem é obrigatória",
+        "valTitle": "Erro de Validação",
+        "valDesc": "Por favor, preencha todos os campos obrigatórios corretamente."
+      },
+      "success": {
+        "title": "Mensagem Enviada com Sucesso!",
+        "desc": "Obrigado por entrar em contato. Retornarei em breve."
+      }
+    }
+  }
+}
