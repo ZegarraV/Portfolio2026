@@ -123,7 +123,7 @@ const HomePage = () => {
                   initial={{ opacity: 0, y: 30 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.5, duration: 0.8 }}
-                  className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed"
+                  className="text-lg sm:text-xl text-foreground/80 max-w-2xl mx-auto leading-relaxed"
                 >
                   {t('home.description')}
                 </motion.p>

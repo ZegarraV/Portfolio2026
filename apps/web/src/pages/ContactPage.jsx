@@ -115,23 +115,21 @@ const ContactPage = () => {
     };
 
     try {
-      // Usamos Promise.all para disparar os dois e-mails simultaneamente
-      await Promise.all([
-        // 2. Email para VOCÊ
-        emailjs.send(
-          EMAILJS_CONFIG.SERVICE_ID,
-          EMAILJS_CONFIG.TEMPLATE_ID_FOR_ME,
-          { ...templateParams, title: `Nova mensagem de: ${formData.name}` },
-          EMAILJS_CONFIG.PUBLIC_KEY
-        ),
-        // 3. Email de confirmação para o CLIENTE (Sender)
-        emailjs.send(
-          EMAILJS_CONFIG.SERVICE_ID,
-          EMAILJS_CONFIG.TEMPLATE_ID_FOR_SENDER,
-          { ...templateParams, title: "Recebemos sua mensagem!" },
-          EMAILJS_CONFIG.PUBLIC_KEY
-        )
-      ]);
+      // Email para VOCÊ (principal)
+      await emailjs.send(
+        EMAILJS_CONFIG.SERVICE_ID,
+        EMAILJS_CONFIG.TEMPLATE_ID_FOR_ME,
+        { ...templateParams, title: `Nova mensagem de: ${formData.name}` },
+        EMAILJS_CONFIG.PUBLIC_KEY
+      );
+
+      // Email de confirmação para o REMETENTE (opcional, não bloqueia sucesso)
+      emailjs.send(
+        EMAILJS_CONFIG.SERVICE_ID,
+        EMAILJS_CONFIG.TEMPLATE_ID_FOR_SENDER,
+        { ...templateParams, title: "Recebemos sua mensagem!" },
+        EMAILJS_CONFIG.PUBLIC_KEY
+      ).catch((err) => console.warn("Confirmação não enviada:", err));
 
       setSubmitStatus("success");
       setFormData({ name: "", email: "", message: "" });

@@ -41,6 +41,12 @@
         "institution": "Pontificia Universidade Catolica",
         "period": "2023 - Present",
         "description": "Focusing on software architecture, algorithms, and modern development practices."
+      },
+      "edu2": {
+        "degree": "High School",
+        "institution": "Colégio Santa Maria Nova Suíça",
+        "period": "2011 - 2023",
+        "description": "Completed high school education with a strong academic foundation."
       }
     },
     "projects": {
@@ -238,6 +244,12 @@
         "institution": "Pontificia Universidade Catolica",
         "period": "2023 - Presente",
         "description": "Foco em arquitetura de software, algoritmos e práticas modernas de desenvolvimento."
+      },
+      "edu2": {
+        "degree": "Ensino Médio",
+        "institution": "Colégio Santa Maria Nova Suíça",
+        "period": "2011 - 2023",
+        "description": "Conclusão do ensino médio com sólida base acadêmica."
       }
     },
     "projects": {

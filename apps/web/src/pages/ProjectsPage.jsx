@@ -6,6 +6,15 @@ import { Button } from '@/components/ui/button';
 import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
 import { useLanguage } from '@/context/LanguageContext.jsx';
+import dtiBanner from '@/components/image/dti.png';
+import onflyBanner from '@/components/image/onfly.png';
+import portfolioBanner from '@/components/image/portfoliobanner.png';
+
+const projectBanners = {
+  'DTI DESAFIO GUESSING GAME': dtiBanner,
+  'DESAFIO ONFLY': onflyBanner,
+  'PORTFOLIO2026': portfolioBanner,
+};
 
 const ProjectsPage = () => {
   const { t } = useLanguage();
@@ -105,6 +114,15 @@ const ProjectsPage = () => {
                         {/* Project Card */}
                         <div className="md:ml-20 bg-card border border-border rounded-2xl overflow-hidden hover:border-primary transition-all group shadow-sm hover:shadow-xl">
                           <div className={`h-2 bg-gradient-to-r ${project.color}`}></div>
+                          {projectBanners[project.title] && (
+                            <div className="w-full h-48 overflow-hidden">
+                              <img
+                                src={projectBanners[project.title]}
+                                alt={`${project.title} banner`}
+                                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                              />
+                            </div>
+                          )}
                           <div className="p-8">
                             {/* Date Badge */}
                             <div className="flex items-center space-x-2 mb-4">

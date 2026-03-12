@@ -35,6 +35,12 @@ const AboutPage = () => {
       period: t('about.edu1.period'),
       description: t('about.edu1.description'),
     },
+    {
+      degree: t('about.edu2.degree'),
+      institution: t('about.edu2.institution'),
+      period: t('about.edu2.period'),
+      description: t('about.edu2.description'),
+    },
   ];
 
   return (
@@ -185,7 +191,7 @@ const AboutPage = () => {
               <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
                 {t('about.educationTitle')}
               </h2>
-              <div className="max-w-3xl mx-auto">
+              <div className="max-w-3xl mx-auto space-y-6">
                 {education.map((edu, index) => (
                   <div
                     key={index}
