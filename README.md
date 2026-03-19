@@ -12,7 +12,7 @@ Portfólio digital moderno e interativo desenvolvido em React, apresentando meus
 
 ## 🔗 Links
 
-- **Demo Online:** [portfolio2026.vercel.app](https://portfolio2026.vercel.app)
+- **Demo Online:** [vinicius-zegarra-palhares.vercel.app](https://vinicius-zegarra-palhares.vercel.app)
 - **GitHub:** [github.com/ZegarraV](https://github.com/ZegarraV)
 - **LinkedIn:** [linkedin.com/in/vinicius-zegarra-palhares](https://www.linkedin.com/in/vinicius-zegarra-palhares/)
 
